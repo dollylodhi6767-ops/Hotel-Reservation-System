@@ -1,5 +1,3 @@
-# 🏨 Hotel Reservation System
-
 <h1 align="center">🏨 Hotel Reservation System</h1>
 
 <p align="center">
