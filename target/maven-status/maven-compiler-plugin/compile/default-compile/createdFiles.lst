@@ -1,8 +1,12 @@
+DAO\updateReservationDAO.class
+DAO\deleteReservationDAO.class
 DAO\ViewReservationDAO.class
 DAO\ReserveRoomDAO.class
 controller\getRoomNumberServlet.class
+controller\deleteReservationServlet.class
 DAO\getRoomNumberDAO.class
 controller\ReserveRoomServlet.class
 model\Reservation.class
 controller\ViewReservationServlet.class
 util\DBConnection.class
+controller\updateReservationServlet.class
