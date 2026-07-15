@@ -1,48 +1,74 @@
 # 🏨 Hotel Reservation System
 
-A web-based Hotel Reservation System developed using Java, Servlets, JSP, JDBC, MySQL, and Bootstrap. This project is an enhanced version of my original console-based Hotel Management System and is being developed to provide a user-friendly web interface.
+<h1 align="center">🏨 Hotel Reservation System</h1>
+
+<p align="center">
+A web-based Hotel Reservation System built using Java, Servlets, JSP, JDBC, MySQL, Bootstrap, and Maven.
+</p>
+
+---
 
 ## 🚀 Features
 
 ### ✅ Implemented
-- Room Reservation
+
+- Reserve Room
 - View Reservations
 - Get Room Number
-
-### 🚧 In Progress
 - Update Reservation
 - Delete Reservation
 
+---
+
 ## 🛠️ Technologies Used
 
+### Backend
 - Java
 - Servlets
 - JSP
 - JDBC
+
+### Database
 - MySQL
-- Bootstrap
-- HTML
-- CSS
+
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap 5
+
+### Build & Server
 - Maven
-- Apache Tomcat
-- Git & GitHub
+- Apache Tomcat 9
+
+### Version Control
+- Git
+- GitHub
+
+---
 
 ## 📌 Project Status
 
-**Under Development**
+**Completed (Current Version)**
 
-This project is currently being enhanced. The frontend has been integrated, and additional features are under active development.
+The application provides complete reservation management with Create, Read, Update, and Delete (CRUD) operations through a responsive web interface. Future enhancements are planned to improve functionality and user experience.
+
+---
 
 ## 📂 Project Structure
 
 ```
 Hotel-Reservation-System
-│── src/main/java
-│   │──webapp
-│   │──resources
+│── screenshots
+│── src
+│   └── main
+│       ├── java
+│       ├── resources
+│       └── webapp
 │── pom.xml
 │── README.md
 ```
+
+---
 
 ## ⚙️ Prerequisites
 
@@ -52,41 +78,89 @@ Hotel-Reservation-System
 - Maven
 - VS Code or IntelliJ IDEA
 
+---
+
 ## ▶️ How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/dollylodhi6767-ops/Hotel-Reservation-System.git
-   ```
+
+```bash
+git clone https://github.com/dollylodhi6767-ops/Hotel-Reservation-System.git
+```
 
 2. Import the project as a Maven project.
 
-3. Create the MySQL database.
+3. Create the required MySQL database.
 
 4. Update the database credentials in the project.
 
 5. Build the project:
 
-   ```bash
-   mvn clean package
-   ```
+```bash
+mvn clean package
+```
 
 6. Deploy the generated WAR file to Apache Tomcat.
 
 7. Open the application in your browser.
 
+---
+
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+### 🏠 Home Page
+
+<p align="center">
+  <img src="screenshots/home-page.png" width="90%">
+</p>
+
+---
+
+### ✨ Features
+
+<p align="center">
+  <img src="screenshots/features.png" width="90%">
+</p>
+
+---
+
+### 📝 Reservation Module
+
+<p align="center">
+  <img src="screenshots/reserve-room.png" width="48%">
+  <img src="screenshots/view-reservations.png" width="48%">
+</p>
+
+---
+
+### ✏️ Update & Delete Reservation
+
+<p align="center">
+  <img src="screenshots/update-reservation.png" width="48%">
+  <img src="screenshots/delete-reservation.png" width="48%">
+</p>
+
+---
+
+### 🔍 Get Room Number & Extras
+
+<p align="center">
+  <img src="screenshots/get-room-number.png" width="48%">
+  <img src="screenshots/extras.png" width="48%">
+</p>
+
+---
 
 ## 🌱 Future Enhancements
 
-- Update Reservation
-- Delete Reservation
-- User Authentication
+- User Authentication & Authorization
 - Admin Dashboard
 - Room Availability Management
-- Responsive UI Improvements
+- Search & Filter Reservations
+- Input Validation
+- Responsive UI Enhancements
+
+---
 
 ## 👨‍💻 Author
 
@@ -94,6 +168,8 @@ Screenshots will be added soon.
 
 BCA Graduate | Aspiring Java Backend Developer
 
-LinkedIn: www.linkedin.com/in/dolly-lodhi-b4b384317
+🔗 **LinkedIn:**  
+https://www.linkedin.com/in/dolly-lodhi
 
-GitHub: https://github.com/dollylodhi6767-ops
+💻 **GitHub:**  
+https://github.com/dollylodhi6767-ops
